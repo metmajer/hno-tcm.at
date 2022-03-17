@@ -1,0 +1,356 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+/*Individuelle Anpassungen für Desktops*/
+/*body*/
+body{
+    line-height: 1;
+}
+
+/*all headings*/
+h1, h2, h3, h4, h5{
+    /* margin-bottom: 1%; */
+    padding-bottom: 0;
+    line-height: 1.3em;
+    hyphens: auto!important;
+    word-wrap: normal!important;
+}
+
+/*Überschrift 1*/
+h1{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 50px!important;
+    font-weight: bold!important;
+    text-transform: uppercase;
+    color: #0b254b!important;
+}
+
+/*Überschrift 2*/
+h2{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 40px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    color: #F5A57C!important;
+}
+
+/*Überschrift 3*/
+h3{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 30px!important;
+    font-weight: bold!important;
+    /* text-transform: uppercase; */
+    color: #0b254b!important;
+}
+
+/*Überschrift 4*/
+h4{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    color: #0b254b!important;
+}
+
+/*Überschrift 5 - zusätzliche große Schrift*/
+h5{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 35px!important;
+    color: #0b254b;
+}
+
+/*Überschrift 6*/
+h6{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 35px!important;
+    font-weight: bold!important;
+    color: #0b254b;
+}
+
+/*Absätze*/
+p{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 20px!important;
+    font-weight: normal;
+    line-height: 1.5em!important;
+    /* color: #0b254b; */
+}
+
+/*Verlinkungen*/
+a{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: inherit;
+    font-weight: bold!important;
+    color: inherit;
+}
+
+/*Verlinkungen drüber fahren mit Maus*/
+a:hover{
+    font-weight: bold;
+}
+
+/*Aufzählungslisten*/
+li, ul, ol{
+    font-size: 16px;
+    line-height: 2em!important;
+    padding-bottom: 0!important;
+}
+
+/*button inverted*/
+/* .et_pb_button.inverted, .et_pb_button.inverted:hover, .et_pb_button.inverted:after{
+    border-color: white!important;
+    color: white!important;
+} */
+
+/*Zitat*/
+/* blockquote{
+    border-color: white;
+} */
+
+/*cookie button margin*/
+/* #cookie-notice .cn-button{
+    margin-left: 2.3%;
+    margin-top: 0.5%;
+} */
+
+/*cookie button style*/
+/* .cn-button.bootstrap{
+    background: #2B2848!important;
+    color: white!important;
+    border: 1px solid white;
+    border-radius: 0;
+    font-family: '', sans-serif!important;
+} */
+
+/*cookie button hover*/
+/* .cn-button.bootstrap:hover{
+    background: white!important;
+    color: #2B2848!important;
+} */
+
+/*--------------------------------*/
+/*navigation*/
+#top-menu-nav{
+    width: auto;
+}
+
+/*navigation link*/
+#top-menu-nav a{
+    font-family: 'brandon-grotesque', sans-serif!important;
+    font-size: 18px!important;
+    font-weight: 600!important;
+    /* text-transform: uppercase; */
+    color: #0b254b!important;
+}
+
+/*navigation list*/
+#top-menu li{
+    padding-right: 30px;
+}
+
+/*navigation unordered list*/
+#top-menu ul{
+    padding-top: 20px;
+    padding-bottom: 20px!important;
+}
+
+/*navigation fixed header link*/
+/*color of termin buchen button*/
+.et-fixed-header #top-menu li.current-menu-item.termin-buchen-button>a{
+    color: #F5A57C!important;
+}
+
+/*termin buchen button*/
+#top-menu .termin-buchen-button,
+.et-fixed-header #top-menu .termin-buchen-button{
+    background-color: white;
+    width: auto;
+    text-align: center;
+    border-radius: 0px;
+    border: 5px solid #F5A57C;
+}
+
+/*termin buchen button link*/
+#top-menu .termin-buchen-button a,
+.et-fixed-header #top-menu .termin-buchen-button a{
+    font-weight: bold!important;
+    width: auto;
+    padding: 0.5em!important;
+    color: #F5A57C!important;
+}
+
+/*submenu*/
+/* ul.sub-menu{
+    width: auto!important;
+} */
+
+/*submenu link*/
+/* ul.sub-menu a{
+    width: 100%!important;
+} */
+
+/*mobile menu burger icon*/
+/* .mobile_menu_bar:before{
+    color: #!important;
+} */
+
+/*mobile menu top stroke*/
+/* .et_mobile_menu{
+    border-top: 3px solid #042a60;
+} */
+
+/*slider aktuelles arrows*/
+/* .et-pb-arrow-prev:before,
+.et-pb-arrow-next:before{
+    font-size: 100px;
+} */
+
+/*toggle module*/
+.et_pb_toggle{
+    margin-bottom: 0!important;
+    border: 1px solid #e2eae2;
+}
+
+/*toogle opened & closed*/
+.et_pb_toggle_open,
+.et_pb_toggle_close{
+    padding: 0;
+}
+
+/*toggle title*/
+.et_pb_toggle_title{
+    color: #0b254b!important;
+    background: #f1f5ed;        /*#acacac*/
+    padding: 3%!important;
+    margin: 0;
+}
+
+/*toggle title icon*/
+.et_pb_toggle_title:before{
+    padding-right: 3%;
+    color: #0b254b;
+}
+
+/*toggle content*/
+.et_pb_toggle_content{
+    padding: 3%;
+    background: white;
+}
+
+/*kontaktdaten heading3*/
+/* #kontaktdaten h3{
+    text-transform: none;
+} */
+
+/*ueber mich doctor picture*/
+/* #doctor{
+    margin-bottom: 0;
+} */
+
+/*Fußzeile*/
+#footer{
+    padding: 0;
+}
+
+/*Divi Fußzeile*/
+#footer-bottom{
+    display: none;
+}
+
+/*Individuelle Anpassungen für Tablets & Smartphones*/
+@media only screen and (max-width: 1300px){
+    /*desktop main menu*/
+    /* #top-menu-nav{
+        display: none!important;
+    } */
+
+    /*mobile main menu*/
+    /* #et_mobile_nav_menu{
+        display: block!important;
+    } */
+}
+
+/*Individuelle Anpassungen für Tablets & Smartphones*/
+/* @media only screen and (max-width: 1100px){ */
+    /*navigation list*/
+    /* #top-menu li{
+        padding-right: 15px;
+    }
+} */
+
+/*termin buchen row*/
+@media only screen and (min-width: 1000px){
+    /* span#element{
+        margin-left: -57px;
+    } */
+
+    /* #termin-buchen-row{
+        display: flex;
+        align-items: center;
+    } */
+}
+
+/*Individuelle Anpassungen für Tablets & Smartphones*/
+@media only screen and (max-width: 600px){
+    /*Überschrift 1*/
+    h1{
+        font-size: 35px!important;
+    }
+
+    /*Überschrift 2*/
+    h2{
+        font-size: 30px!important;
+    }
+
+    /*Überschrift 3*/
+    h3{
+        font-size: 25px!important;
+    }
+
+    /*Überschrift 4*/
+    h4{
+        font-size: 23px!important;
+    }
+
+    /*Überschrift 5*/
+    h5{
+        font-size: 22px!important;
+    }
+    
+    /*Überschrift 6*/
+    h6{
+        
+    }
+
+    /*Absätze*/
+    p{
+        font-size: 22px!important;
+    }
+
+    /*Aufzählungslisten*/
+    li{
+        font-size: inherit!important;
+    }
+
+/*--------------------------------*/
+
+    /*slider aktuelles arrows*/
+    .et-pb-arrow-prev:before,
+    .et-pb-arrow-next:before{
+        font-size: 50px;
+    }
+}
+    
+/*Individuelle Anpassungen für Tablets & Smartphones*/
+@media only screen and (max-width: 570px){
+    
+}
